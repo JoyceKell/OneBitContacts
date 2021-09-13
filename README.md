@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+a api consiste em uma simples agenda, onde eu como usuário posso logar e ver meus contatos.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+endpoints (usuário logado):
+  POST /api/v1/contacts.json (criar um contato)
+  
+  GET /api/v1/contacts.json (visualizar contatos cadastrados)
+  
+  PUT /api/v1/contacts.json  (editar um contato cadastrado)
+  
+  DELETE /api/v1/contacts/id_do_contato (apagar um contato cadastrado)
+  
+  GET /api/v1/contacts/id_do_contato (buscar um contato específico)
